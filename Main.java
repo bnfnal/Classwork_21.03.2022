@@ -24,7 +24,7 @@ public class Main {
         System.out.println();
 
         // Task 3: You're a square!
-        System.out.println("// Task 3: You're a square!");
+        System.out.println("Task 3: You're a square!");
         System.out.println("Введите целое число");
         int n = sc.nextInt();
         System.out.println("Это число является точным квадратом?");
