@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +7,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // Task 1: If you can't sleep, just count sheep!!
-	    
         System.out.println("Task 1: If you can't sleep, just count sheep!!");
         System.out.println("Введите количество овечек (положительное целое число)");
         int sheepCount = sc.nextInt();
@@ -18,7 +15,6 @@ public class Main {
         System.out.println();
 
         // Task 2: Jaden Casing Strings
-	    
         System.out.println("Task 2: Jaden Casing Strings");
         System.out.println("Введите строку");
         Scanner s = new Scanner(System.in);
@@ -28,7 +24,6 @@ public class Main {
         System.out.println();
 
         // Task 3: You're a square!
-	    
         System.out.println("// Task 3: You're a square!");
         System.out.println("Введите целое число");
         int n = sc.nextInt();
@@ -40,7 +35,7 @@ public class Main {
 
 // Task 1: If you can't sleep, just count sheep!!
 
-    public class CountingSheeps {
+    public static class CountingSheeps {
         public static String countingSheep(int n) {
             String res = "";
             for (int i = 1; i < n + 1; i++) {
@@ -67,7 +62,7 @@ public class Main {
 
 // Task 3: You're a square!
 
-    public class Square {
+    public static class Square {
         public static boolean isSquare(int n) {
             if (n < 0) return false;
             if (n == 0) return true;
