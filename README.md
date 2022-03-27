@@ -91,13 +91,17 @@ In mathematics, a square number or perfect square is an integer that is the squa
 The tests will always use some integral number, so don't worry about that in dynamic typed languages.
 
 ### **Example:**
--1  =>  false
- 0  =>  true
- 3  =>  false
- 4  =>  true
-25  =>  true
-26  =>  false
 
+
+   -1  =>  false, 
+    0  =>  true, 
+    3  =>  false, 
+    4  =>  true, 
+    25  =>  true, 
+    26  =>  false, 
+    
+    
+    
 ### **Favorite solution:**
 
 
